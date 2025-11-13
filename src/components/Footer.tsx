@@ -11,10 +11,8 @@ export const Footer = () => {
           </div>
 
           <div className="flex gap-8 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">About</a>
-            <a href="#" className="hover:text-foreground transition-colors">Features</a>
-            <a href="#" className="hover:text-foreground transition-colors">Contact</a>
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
+            <a href="mailto:Ron.mantri@gmail.com" className="hover:text-foreground transition-colors">Contact</a>
+            <a href="https://mytimetable.neocities.org/privacypolicy" className="hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">Privacy</a>
           </div>
 
           <div className="text-sm text-muted-foreground">
