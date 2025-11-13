@@ -18,41 +18,22 @@ export const CTA = () => {
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of students and professionals who have already organized their lives with mytimetable.
+            Organize your life with mytimetable - a powerful productivity tool for students and professionals.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-            <Button variant="hero" size="lg" className="group">
-              <Download className="w-5 h-5" />
-              Download Now
-              <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+            <Button variant="hero" size="lg" className="group" asChild>
+              <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
+                <Download className="w-5 h-5" />
+                Download Now
+                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-            <Button variant="outline" size="lg">
-              Try Web Version
+            <Button variant="outline" size="lg" asChild>
+              <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
+                Try Web Version
+              </a>
             </Button>
-          </div>
-
-          <div className="pt-8 flex items-center justify-center gap-12 text-sm">
-            <div className="flex flex-col items-center">
-              <span className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                10k+
-              </span>
-              <span className="text-muted-foreground">Downloads</span>
-            </div>
-            <div className="w-px h-12 bg-border" />
-            <div className="flex flex-col items-center">
-              <span className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                4.9★
-              </span>
-              <span className="text-muted-foreground">User Rating</span>
-            </div>
-            <div className="w-px h-12 bg-border" />
-            <div className="flex flex-col items-center">
-              <span className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Free
-              </span>
-              <span className="text-muted-foreground">Forever</span>
-            </div>
           </div>
         </div>
       </div>

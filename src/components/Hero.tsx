@@ -33,22 +33,17 @@ export const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="lg" className="group">
-                Get Started Free
-                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+              <Button variant="hero" size="lg" className="group" asChild>
+                <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
+                  Get Started Free
+                  <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
-              <Button variant="outline" size="lg">
-                View Features
+              <Button variant="outline" size="lg" asChild>
+                <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
+                  View Features
+                </a>
               </Button>
-            </div>
-
-            <div className="flex items-center gap-8 justify-center lg:justify-start text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-foreground">10k+</span> Active Users
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-foreground">4.9★</span> Rating
-              </div>
             </div>
           </div>
 
