@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const CTA = () => {
   return (
@@ -21,17 +21,11 @@ export const CTA = () => {
             Organize your life with mytimetable - a powerful productivity tool for students and professionals.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+          <div className="flex justify-center pt-4">
             <Button variant="hero" size="lg" className="group" asChild>
               <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
-                <Download className="w-5 h-5" />
-                Download Now
-                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-              </a>
-            </Button>
-            <Button variant="outline" size="lg" asChild>
-              <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
                 Try Web Version
+                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
           </div>

@@ -32,16 +32,11 @@ export const Hero = () => {
               organized notes, and a sleek modern interface to keep you on track.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex justify-center lg:justify-start">
               <Button variant="hero" size="lg" className="group" asChild>
                 <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
-                  Get Started Free
+                  Try Web Version
                   <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <a href="https://mytimetable.neocities.org/Liquid_Glass_OS_Updated" target="_blank" rel="noopener noreferrer">
-                  View Features
                 </a>
               </Button>
             </div>
